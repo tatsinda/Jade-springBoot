@@ -1,0 +1,15 @@
+****************creation de l'app d'un systeme multi agent*************
+
+-dans le package Containers on cree le mainContainer appeler MyMainContainer et un SimpleContainer ne contenant aucun agent
+-on demarre MainContainer
+-on demarre SimpleContainer en 3 instance
+-dans le package agents on cree l'agent ConsumerAgent et on ajoute les methodes
+-dans le pacage Cntainer on cree le container ConsumerContainer
+-depuis l'interface de Jade on fait migrer l'agent consumerAgent vers le container 1 qui a ete demarrer avec l'option "migrate agent" et on lui envoi message avec l'opion "send message" et c'est un inform
+-**************************on tue l'agent avec l'opton kill
+-on demarre a nouveau l#agent et on lui affecte des comportement
+-on cree un parallelBehaviour pour prmettre a l'agent d'executer les comportement simultanement et pas suscessivement
+
+-**************************** et un Cycle............. pour recevoir et envoyer un essage entre agent
+-avec l'interface graphique de Jade on enoi un message a l'agent avc l'option "send message"
+----------------------------------- on active l sniffing pour sniffer les echange entre l'agent ConsumerAgent et le ainContener
