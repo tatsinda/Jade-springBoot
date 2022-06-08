@@ -6,6 +6,7 @@ import jade.core.Runtime;
 import jade.wrapper.AgentContainer;
 
 //le container main
+
 public class MyMainContainer {
 
 	public static void main(String[] args) throws Exception {
@@ -19,5 +20,7 @@ public class MyMainContainer {
 		mainContainer.start();//on demmarrre le container*/
 
 	}
+	
+	
 
 }

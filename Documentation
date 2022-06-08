@@ -13,3 +13,8 @@
 -**************************** et un Cycle............. pour recevoir et envoyer un essage entre agent
 -avec l'interface graphique de Jade on enoi un message a l'agent avc l'option "send message"
 ----------------------------------- on active l sniffing pour sniffer les echange entre l'agent ConsumerAgent et le ainContener
+
+
+-on cree une interface graphique pour l'agent
+-on cree l'agent AcheteurAgent dans le package agents
+-on cree l'interface graphique de l#agent AcheteurAgent dans le meme package appeler AcheteurGui
